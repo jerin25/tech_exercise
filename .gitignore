@@ -1,2 +1,16 @@
+.idea
+*.iml
+target
+build
+null
+tmp*
+temp*
+dist
+.metadata
+.cache-main
 *.class
+*.orig
 *.log
+.DS_Store
+scalastyle-output.xml
+src/test/resources/output
