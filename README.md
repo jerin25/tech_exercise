@@ -14,6 +14,7 @@ mkdir -p /tmp/input/ /tmp/output
 cp src/main/resources/input/* /tmp/input
 
 #Run application
+
 spark-submit --name tech_exercise_`date +%F_%T` \
 --class com.jerin.exercise.OddFindOut \
 --conf spark.yarn.submit.waitAppCompletion=false  \
